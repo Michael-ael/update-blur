@@ -22,6 +22,8 @@
     <meta name="msapplication-square150x150logo" content="/icons/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="/icons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/icons/mstile-310x310.png" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     <style data-href="/static-assets/styles.css">
         .nm-preview-error__row {
             min-height: 100vh;
@@ -18934,6 +18936,19 @@
         }
 
         /* custom */
+        #not{
+            padding-top: 30px ;
+        }
+
+        #aut{
+            margin: 20px 13%;
+            justify-content: center;
+        }
+
+        #but{
+            width: 200px;
+        }
+
         #sidemenu_toggle{
             display: none !important;
         }
@@ -18941,6 +18956,19 @@
         @media (max-width:767px) {
             #sidemenu_toggle{
             display: block !important;
+        }
+
+        #not{
+            padding-top: 20px;
+        }
+        
+     
+
+        #aut{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0px 15%;
         }
             
         }
@@ -19071,7 +19099,7 @@
                                     <a class="nav-link" href="#">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://blurfinance.org/login">Login</a>
+                                    <a class="nav-link" href="https://blurfinance.org/login">Sign in</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="https://blurfinance.org/register">Sign Up</a>
@@ -19101,7 +19129,7 @@
                     
                                     <li class="nav-item">
                                         <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
-                                            About Us <i class="fas fa-chevron-down"></i>
+                                            About Us <i class="fa-solid fa-caret-down"></i>
                                         </a>
                                         <div id="sideNavPages2" class="collapse sideNavPages">
                                             <ul class="navbar-nav">
@@ -19120,7 +19148,7 @@
                                     
                                     <li class="nav-item">
                                         <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages">
-                                            Core Values <i class="fas fa-chevron-down"></i>
+                                            Core Values <i class="fa-solid fa-caret-down"></i>
                                         </a>
                                         <div id="sideNavPages" class="collapse sideNavPages">
                                             <ul class="navbar-nav">
@@ -19163,9 +19191,17 @@
             </header>
           
             <section id="notification_banner">
-                <div data-qa="nm-lazy-component"></div>
-            </section>
+                <div data-qa="nm-lazy-component" id="not">
+                    <section data-qa="nk-notification-banner" class="NotificationBanner_nk-notification-banner__sm2Te nm-slice-notification-banner NotificationBanner_nk-notification-banner--no-stack__1csqk NotificationBanner_nk-notification-banner--information__2bdkR" type="notification_banner">
+                        <div class="NotificationBanner_nk-notification-banner__container__DH67b container">
+                            <div class="NotificationBanner_nk-notification-banner__wrapper__2Xrmg">
+                                <div class="NotificationBanner_nk-notification-banner__content__hof0r">
+                                    <svg viewBox="0 0 24 24" focusable="false" class="Icon_nk-icon__2i1Ke NotificationBanner_nk-notification-banner__icon__8w9I6 Icon_nk-icon--size-md__3KruK Icon_nk-icon--color-default__2qOfk" xmlns="http://www.w3.org/2000/svg"><path d="M11 7h2v2h-2zm0 4h2v6h-2z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg><p class="Text_nk-text__2zQmB nk-text NotificationBanner_nk-notification-banner__text__3grIs Text_nk-text--no-stack__32v8y undefined Text_nk-text--style-text-1__1564J Text_nk-text--size-xs__lPgmy" aria-live="polite">
+                                        <span class="Text_nk-text__2zQmB nk-text Text_nk-text--no-stack__32v8y Text_nk-text--style-text-2__3P6uw Text_nk-text--tag-span__1W9Wv" style="display: inline-block; text-align: left; width: 100%;">Transfer your ISAs, pensions, Junior ISAs and Child Trust Funds to Nutmeg and we'll give you up to £3,000 Investment Boost or 300,000 Avios. Offer ends 31st July. £5,000 minimum transfer. Capital at risk. Tax rules subject to individual status and may change. T&amp;Cs apply. <a href="http://www.nutmeg.com/promo/transfer-offer" class="Link_nk-link__3rWad Link_nk-link--no-color__1Gj7j" target="_blank" rel="noopener noreferrer">Learn more</a>.</span></p></div></div></div></section></div></section>
+
+            
             <section id="product_hero">
+                
                 <section class="Section_nk-section__3c5CF Hero_nm-hero__38nCq Hero_nm-hero-size--medium__1Iipj Hero_nm-hero--theme-dark__1Mwf8" style="background-image:url(../images.prismic.io/nutmegnewbrand/82290068-ea03-4d04-9cc5-71c3f60587c4_100%2bblack0e63.jpg?auto=compress,format&amp;rect=0,23,100,55&amp;w=1280&amp;h=700)">
                     <picture>
                         <source media="(min-width: 1024px)" srcSet="https://images.prismic.io/nutmegnewbrand/b423bdd7-4821-443d-9413-01e9c25a0129_Nutmeg_Homepage_Hero.jpg?auto=compress,format, https://images.prismic.io/nutmegnewbrand/b423bdd7-4821-443d-9413-01e9c25a0129_Nutmeg_Homepage_Hero.jpg?auto=compress,format&amp;dpr=2 2x" />
@@ -19174,6 +19210,7 @@
                         <source media="(max-width: 523px)" srcSet="https://images.prismic.io/nutmegnewbrand/b423bdd7-4821-443d-9413-01e9c25a0129_Nutmeg_Homepage_Hero.jpg?auto=compress,format&amp;rect=322,0,1920,1440&amp;w=400&amp;h=300, https://images.prismic.io/nutmegnewbrand/b423bdd7-4821-443d-9413-01e9c25a0129_Nutmeg_Homepage_Hero.jpg?auto=compress,format&amp;rect=322,0,1920,1440&amp;w=400&amp;h=300&amp;dpr=2 2x" /><img src="../images.prismic.io/nutmegnewbrand/b423bdd7-4821-443d-9413-01e9c25a0129_Nutmeg_Homepage_Hero71fb.jpg?auto=compress,format" class="Image_nk-image__1UIMs Hero_nm-hero__imagery__26r6Z Image_nk-image--size-cover__2h6lm" />
                     </picture>
                     <div class="Hero_nm-hero__content__2EBmc">
+                        
                         <div class="container">
                             <div class="row" style="margin-top: 20px;">
                                 <div class="col-md-8 offset-md-0 col-lg-6 offset-lg-0">
@@ -19184,24 +19221,21 @@
                                         <br>
                                         Crypto.
                                     </span></h1>
-                                    <p class="Text_nk-text__2zQmB nk-text Text_nk-text--no-stack__32v8y Text_nk-text--align-left__1c6n5 Text_nk-text--style-text-1__1564J Text_nk-text--theme-dark--color-default__20QVD">We believe investing should be a clear and straightforward experience. We build and manage diversified portfolios, using technology to keep charges low and clearly show where you’re invested.</p>
+                                    <p class="Text_nk-text__2zQmB nk-text Text_nk-text--no-stack__32v8y Text_nk-text--align-left__1c6n5 Text_nk-text--style-text-1__1564J Text_nk-text--theme-dark--color-default__20QVD" style="text-align: center; width: 100%; margin: 10px auto;">We believe investing should be a clear and straightforward experience. We build and manage diversified portfolios, using technology to keep charges low and clearly show where you’re invested.</p>
                                 </div>
                             </div>
-                            <div class="Align_nk-align--md-text-align-left__1e9XZ">
+                            <div class="Align_nk-align--md-text-align-left__1e9XZ" >
                                 <div class="row">
                                     <div class="Hero_nm-hero__cta__2fQIL col">
                                         <div style="margin-left:0;margin-right:0" class="row">
-                                            <div class="col">
-                                                <section class="ButtonGroup_nk-button-group__2LAse LinkGroup_nm-link-group__wrapper__3tYBV ButtonGroup_nk-button-group--left__AH-Nk ButtonGroup_nk-button-group--stack__2M7Dc ButtonGroup_nk-button-group--stack-on-mobile__1wftS"><a href="https://blurfinance.org/register" class="Link_nk-link__3rWad Link_nk-link--button__iaKXS Link_nk-link--button--primary__1dd7f Link_nk-link--theme-dark__2hk2v">Get started</a></section>
+                                            <div class="col" id="aut" style="justify-content: center;">
+                                                <section class="ButtonGroup_nk-button-group__2LAse LinkGroup_nm-link-group__wrapper__3tYBV ButtonGroup_nk-button-group--left__AH-Nk ButtonGroup_nk-button-group--stack__2M7Dc ButtonGroup_nk-button-group--stack-on-mobile__1wftS"><a href="https://blurfinance.org/register" class="Link_nk-link__3rWad Link_nk-link--button__iaKXS Link_nk-link--button--primary__1dd7f Link_nk-link--theme-dark__2hk2v" id="but">Get started</a></section>
+                                                <section class="ButtonGroup_nk-button-group__2LAse LinkGroup_nm-link-group__wrapper__3tYBV ButtonGroup_nk-button-group--left__AH-Nk ButtonGroup_nk-button-group--stack__2M7Dc ButtonGroup_nk-button-group--stack-on-mobile__1wftS"><a href="https://blurfinance.org/login" class="Link_nk-link__3rWad Link_nk-link--button__iaKXS Link_nk-link--button--primary__1dd7f Link_nk-link--theme-dark__2hk2v" id="but"> Sign In</a></section>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-0 col-lg-6 offset-lg-0">
-                                        <p class="Text_nk-text__2zQmB nk-text Text_nk-text--style-text-1__1564J Text_nk-text--theme-dark--color-default__20QVD">With investment, your capital is at risk.</p>
-                                    </div>
-                                </div>
+                              
                             </div>
                         </div>
                     </div>
@@ -19288,7 +19322,7 @@
             <section id="spacing_section-2">
                 <div class="nm-spacing-section SpacingSection_nm-spacing-section--size-xxl__3bRWJ SpacingSection_nm-spacing-section--color-white__wWKAe"></div>
             </section>
-            <!-- <section id="our_products">
+            <section id="our_products">
                 <div class="Section_nk-section__3c5CF nm-slice">
                     <div class="Container_nk-grid-container-dynamic__2abWw container">
                         <div class="nm-headline row">
@@ -19362,14 +19396,14 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
-            <!-- <section id="rich_text-3">
+            </section>
+            <section id="rich_text-3">
                 <div class="Section_nk-section__3c5CF nm-slice nm-slice--background nm-slice--background-white nm-slice--no-stack nm-slice--spacing-default">
                     <div class="Container_nk-grid-container-dynamic__2abWw container">
                         <div class="Align_nk-align--xs-text-align-center__ux7cM"><img src="../images.prismic.io/nutmegnewbrand/5a33f6e6-0ddc-41ce-9b76-e5799ebd1cbc_Waves71fb.png?auto=compress,format" class="Image_nk-image__1UIMs" style="width:100px;height:50px" /></div>
                     </div>
                 </div>
-            </section> -->
+            </section>
             <section id="how_it_works">
                 <div class="Section_nk-section__3c5CF nm-slice nm-slice--background nm-slice--background-white">
                     <div class="Container_nk-grid-container-dynamic__2abWw container">
@@ -19428,7 +19462,7 @@
                                     </div>
                                     <div class="Align_nk-align--xs-text-align-center__ux7cM">
                                         <h3 class="Text_nk-text__2zQmB nk-text Text_nk-text--style-title-2__2rdL1 Text_nk-text--color-dark__Ft5cf"><span class="Text_nk-heading__children__1ALTb">Global Coverage.</span></h3>
-                                        <p class="Text_nk-text__2zQmB nk-text Text_nk-text--no-stack__32v8y Text_nk-text--style-text-1__1564J">As a leading real-estate, stoks and cryptocurrency broker in the financial market, we operate in over 78 countires.</p>
+                                        <p class="Text_nk-text__2zQmB nk-text Text_nk-text--no-stack__32v8y Text_nk-text--style-text-1__1564J">As a leading real-estate, stoks and cryptocurrency broker in the financial market, we operate in over 38 countires.</p>
                                     </div>
                                 </div>
 
@@ -19531,11 +19565,9 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-8 offset-2 col-md-4 order-md-2 offset-md-0"><noscript><img src="../images.prismic.io/nutmegnewbrand/0d23cf30-7a25-4645-85c0-814ee414bccb_no-graphs71fb.png?auto=compress,format" srcSet="https://images.prismic.io/nutmegnewbrand/0d23cf30-7a25-4645-85c0-814ee414bccb_no-graphs.png?auto=compress,format, https://images.prismic.io/nutmegnewbrand/0d23cf30-7a25-4645-85c0-814ee414bccb_no-graphs.png?auto=compress,format&amp;dpr=2 2x" class="Image_nk-image__1UIMs Image_nk-image--size-contain__O5AfC" /></noscript>
-                                <div data-qa="nm-lazy-component"></div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="Align_nk-align--xs-text-align-center__ux7cM Align_nk-align--md-text-align-left__1e9XZ">
+                        
+                            <div class="col-md-12">
+                                <div class="Align_nk-align--xs-text-align-center__ux7cM Align_nk-align--md-text-align-center__1e9XZ">
                                     <p class="Text_nk-text__2zQmB nk-text Text_nk-text--style-text-1__1564J">We believe long-term, intelligent asset allocation is a far better investment approach than trying to pick a single company that may outperform its competitors. Our expert investment team use a broad range of assets to build sophisticated, globally-diversified portfolios.</p><a href="#" class="Link_nk-link__3rWad nm-slice-intro-section__link Link_nk-link--button__iaKXS Link_nk-link--button--primary__1dd7f" target="_blank" rel="noopener noreferrer" cta="primary" title="Explore our track record">Explore our track record</a>
                                     <p class="Text_nk-text__2zQmB nk-text Text_nk-text--style-text-1__1564J">Capital at risk. Past performance is not a reliable indicator of future performance.</p>
                                 </div>
