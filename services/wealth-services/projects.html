@@ -18990,13 +18990,13 @@
     
 
     <style>
-        section{
+        section.gallery{
     padding: 30px;
     width: 100%;
     margin: 40px auto;
 }
 
-section ul{
+section.gallery ul{
     display: flex;
     margin-bottom: 10px;
     justify-content: center;
@@ -19006,7 +19006,7 @@ section ul{
     text-align: center;
 }
 
-section ul li{
+section.gallery ul li{
     list-style: none;
     padding: 8px 20px;
     width: 20%;
@@ -19016,11 +19016,11 @@ section ul li{
     transition: 0.5s;
 }
 
-section ul li:hover{
+section.gallery ul li:hover{
     background-color: rgba(225, 225, 225, 0.5)
 }
 
-section header img{
+section.gallery header img{
     position: absolute;
     top: 0;
     left: 0;
@@ -19030,11 +19030,11 @@ section header img{
     transition: 0.5s;
     opacity: 0;
 }
-section ul li:hover + section header ul img{
+section.gallery ul li:hover + section.gallery header ul img{
     opacity: 1;
 }
 
-section ul li.active{
+section.gallery ul li.active{
     border-bottom: 1px solid red;
 }
 
@@ -19132,7 +19132,7 @@ section ul li.active{
             </section>
 
            
-            <section>
+            <section class="gallery">
 
             <header>
 
