@@ -18901,10 +18901,19 @@
             justify-content: space-between
         }
 
+        #sidemenu_toggle{
+            display: none !important;
+        }
+
         @media (max-width:523px) {
             .Contacts_nm-contacts__link__1dNzg {
                 flex-basis: 100%
             }
+
+            #sidemenu_toggle{
+            display: block !important;
+        }
+
         }
 
         .CookieConsentsList_nm-cookie-consents-list__table-wrapper__1GGco {
@@ -19021,7 +19030,9 @@
                             </ul>
                         </div>
                     </div>
-                    <!--side menu open button-->
+                    <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+                        <span></span> <span></span> <span></span>
+                    </a>
                   
 
                     <div class="side-menu opacity-0 gradient-bg">
